@@ -1,4 +1,5 @@
 import DownloadButton from "./components/DownloadButton";
+import { basePath } from "../basePath";
 
 export default function Home() {
   return (
@@ -13,12 +14,12 @@ export default function Home() {
             file.
           </h1>
           <DownloadButton
-            href="/demo"
+            href={`${basePath}/Demo.pdf`}
             download="Demo.pdf"
             name="Download Trainer Manual"
           />
           <DownloadButton
-            href="/demo"
+            href={`${basePath}/Demo.pdf`}
             download="Demo.pdf"
             name="Download Trainee Manual"
           />

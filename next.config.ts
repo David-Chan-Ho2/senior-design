@@ -1,7 +1,6 @@
 
 import type { NextConfig } from "next"
-
-const repoName = "senior-design"
+import { basePath } from "./basePath"
 
 const nextConfig: NextConfig = {
   experimental: {
@@ -21,9 +20,7 @@ const nextConfig: NextConfig = {
   output: "export",
 
   // GitHub Pages repository path
-  basePath: process.env.GITHUB_ACTIONS === "true"
-    ? `/${repoName}`
-    : "",
+  basePath,
 
   // Generate /about/index.html instead of /about.html
   trailingSlash: true,
