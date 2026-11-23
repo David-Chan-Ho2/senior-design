@@ -13,6 +13,9 @@ export default function Home() {
                     <DownloadButton fileId="193VcYwkDgxb96cwWNRaanHHFNlAtmDRJ" />
                     <p>Startup Manual</p>
                     <DownloadButton fileId="1zRWuAzncEhS14tSJrWHpI1mIo2Ab2iUj" />
+
+                    <p>Case Study</p>
+                    <a href="https://www.cnn.com/2021/02/10/us/florida-water-poison-cyber">Link</a>
                 </div>
             </main>
         </div>
