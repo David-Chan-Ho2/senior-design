@@ -70,7 +70,7 @@ export default function Home() {
                     />
                     <div className="relative mx-auto max-w-5xl px-6 pt-20 pb-16 sm:pt-28">
                         <p className="text-sm font-semibold uppercase tracking-widest text-primary">
-                            University of North Carolina · Senior Design
+                            University of North Carolina at Charlotte · Senior Design
                         </p>
                         <h1 className="mt-4 max-w-3xl text-4xl font-bold tracking-tight sm:text-6xl">
                             EPRI Flag
@@ -136,7 +136,7 @@ export default function Home() {
 
             <footer className="border-t">
                 <div className="mx-auto max-w-5xl px-6 py-6 text-sm text-muted-foreground">
-                    University of North Carolina · Senior Design Project
+                    University of North Carolina at Charlotte · Senior Design Project
                 </div>
             </footer>
         </div>
