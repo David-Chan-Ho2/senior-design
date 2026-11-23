@@ -1,4 +1,3 @@
-import { basePath } from "../basePath";
 import DownloadButton from "./components/DownloadButton";
 
 export default function Home() {
@@ -11,15 +10,9 @@ export default function Home() {
                     </h1>
                     <h2>Senior Capstone EPRI Flag</h2>
                     <p>Exercise Manual</p>
-                    <DownloadButton
-                        href={`${basePath}/EPRI_FLAG_Exercise_and_Manuals_Revision19.pdf`}
-                        download="EPRI_FLAG_Exercise_and_Manuals_Revision19.pdf"
-                    />
+                    <DownloadButton fileId="1V9Ge3zXmd6O5WIDOuHSBgREf3NH4rStG" />
                     <p>Startup Manual</p>
-                    <DownloadButton
-                        href={`${basePath}/EPRI_FLAG_Startup_and_Reset_Checklist_Revision26.pdf`}
-                        download="EPRI_FLAG_Startup_and_Reset_Checklist_Revision26.pdf"
-                    />
+                    <DownloadButton fileId="1V9Ge3zXmd6O5WIDOuHSBgREf3NH4rStG" />
                 </div>
             </main>
         </div>

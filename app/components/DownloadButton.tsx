@@ -1,18 +1,18 @@
 interface IDownloadButton {
-  href: string;
-  download: string;
+    fileId: string;
 }
 
-function DownloadButton({ href, download}: IDownloadButton) {
-  return (
-    <a
-      href={href}
-      download={download}
-      className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 inline-block"
-    >
-      Download
-    </a>
-  );
+function DownloadButton({ fileId }: IDownloadButton) {
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+
+    return (
+        <a
+            href={downloadUrl}
+            className="bg-blue-600 text-white px-6 py-3 rounded-lg"
+        >
+            Download Project Report
+        </a>
+    );
 }
 
 export default DownloadButton;
