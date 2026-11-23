@@ -10,9 +10,9 @@ export default function Home() {
                     </h1>
                     <h2>Senior Capstone EPRI Flag</h2>
                     <p>Exercise Manual</p>
-                    <DownloadButton fileId="1V9Ge3zXmd6O5WIDOuHSBgREf3NH4rStG" />
+                    <DownloadButton fileId="193VcYwkDgxb96cwWNRaanHHFNlAtmDRJ" />
                     <p>Startup Manual</p>
-                    <DownloadButton fileId="1V9Ge3zXmd6O5WIDOuHSBgREf3NH4rStG" />
+                    <DownloadButton fileId="1zRWuAzncEhS14tSJrWHpI1mIo2Ab2iUj" />
                 </div>
             </main>
         </div>
